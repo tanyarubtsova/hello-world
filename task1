@@ -50,7 +50,7 @@ class MyList:
 def func(a):
 	l = MyList()
 	while(a != 0):
-		l.add_node1(a % 10)
+		l.add_node(a % 10)
 		a = a // 10
 	return l
 	
