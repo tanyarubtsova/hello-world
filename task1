@@ -49,9 +49,8 @@ class MyList:
 
 def func(a):
 	l = MyList()
-	while(a != 0):
-		l.add_node(a % 10)
-		a = a // 10
+	for i in a.rsplit():
+		l.add_node(i)
 	return l
 	
 a = input()   
