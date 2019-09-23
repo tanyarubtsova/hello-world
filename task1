@@ -54,7 +54,7 @@ def func(a):
 		a = a // 10
 	return l
 	
-a = int(input())   
+a = input()   
 l = func(a)
 l.print_list()
 #print()
